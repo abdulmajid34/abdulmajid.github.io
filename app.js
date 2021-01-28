@@ -1,4 +1,4 @@
-const img = ['img/kartini.png', 'img/mengheningkan cipta.png', 'img/tanah airku.png', 'img/bagimuNegeri.jpg', 'img/gundul pacul.jpg', 'img/17 agustus.JPG', 'img/despacito.png', 'img/satu-nusa-satu-bangsa.jpg', 'img/titanic.png', 'img/sabang ke merauke.jpg'];
+const img = ['img/kartini.png', 'img/mengheningkan cipta.png', 'img/tanah airku.png', 'img/bagimuNegeri.jpg', 'img/gundul pacul.jpg', 'img/17 agustus.JPG', 'img/akuseorangkapten.jpg', 'img/satu-nusa-satu-bangsa.jpg', 'img/titanic.png', 'img/sabang ke merauke.jpg', 'img/amparpisang.png', 'img/anak kambing.png', 'img/apuse.png', 'balonku.jpg', 'img/hbd.jpg', 'img/kicirkicir.jpg', 'img/suwe.png'];
 let idx = 0;
 function changeChord () {
     if(idx === img.length - 1) {
