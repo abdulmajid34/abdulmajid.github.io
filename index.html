@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pianika_Instrument | FinalProject</title>
+</head>
+<body>
+    <section class="judul">
+        <h1>Pianika instrument</h1>
+    </section>
+    <div id="lirik">
+        <img id="gambar" src="img/mengheningkan cipta.png" width="400px">
+    </div>
+    <button id="button1" onclick="changeChord()">CHANGE CHORD</button>
+    <button class="warna">CHANGE COLOUR</button>
+    
+        <div class="piano">
+            <div class="key white" data-note="C">A <br>1</div>
+            <div class="key black" data-note="Cs">W </div>
+            <div class="key white" data-note="D">S <br>2</div>
+            <div class="key black" data-note="Ds">E </div>
+            <div class="key white" data-note="E">D <br>3</div>
+            <div class="key white" data-note="F">F <br>4</div>
+            <div class="key black" data-note="Fs">R</div>
+            <div class="key white" data-note="G">G <br>5</div>
+            <div class="key black" data-note="Gs">T</div>
+            <div class="key white" data-note="A">H <br>6</div>
+            <div class="key black" data-note="As">Y</div>
+            <div class="key white" data-note="B">J <br>7</div>
+            <div class="key white" data-note="C+">k <br>1</div>
+        </div>
+    <audio src="nada/middle_c.mp3" id="C"></audio>
+    <audio src="nada/Ab.mp3"       id="Cs"></audio>
+    <audio src="nada/middle_d.mp3" id="D"></audio>
+    <audio src="nada/Bb.mp3"       id="Ds"></audio>
+    <audio src="nada/middle_e.mp3" id="E"></audio>
+    <audio src="nada/middle_f.mp3" id="F"></audio>
+    <audio src="nada/Db.mp3"       id="Fs"></audio>
+    <audio src="nada/middle_g.mp3" id="G"></audio>
+    <audio src="nada/Eb.mp3"       id="Gs"></audio>
+    <audio src="nada/middle_a.mp3" id="A"></audio>
+    <audio src="nada/Eb.mp3"       id="As"></audio>
+    <audio src="nada/middle_b.mp3" id="B"></audio>
+    <audio src="nada/high_c.mp3"   id="C+"></audio>
+
+    <footer>
+        <h2>copyright &copy; 2021 By | abdulmajid X HACKTIV8</h2>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

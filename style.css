@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.judul h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "roboto", sans-serif;
+}
+
+/* bagian styling lirik */
+#lirik {
+    width: 500px; 
+    height: 70vh;
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
+    margin-left: 50px;
+}
+#lirik img {
+    padding: 25px;
+}
+
+.piano {
+    margin-top: -500px;
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-left: 600px;
+    background-color: black;
+    box-shadow: 10px 10px #eaeaea;
+}
+  
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+  
+.white {
+    width: 30%;
+    min-width: 60px;
+    height: 70%;
+    background-color: white;
+    border: 1px solid #cccccc;
+    color: #000;
+}
+  
+.black {
+    width: 20%;
+    height: 45%;
+    margin-left: -4%;
+    margin-right: -4%;
+    z-index: 2;
+    background-color: black;
+    color: #fff;
+}
+  
+.white.active {
+    background-color: red;
+}
+.white.active:hover {
+    box-shadow: 5px 5px grey;
+}
+  
+.black.active {
+    background-color: #333;
+}
+
+#button1 {
+    border: 1px solid black;
+    margin-left: 130px;
+    margin-top: 25px;
+    padding: 15px;
+}
+#button1:hover {
+    box-shadow: 5px 5px grey;
+}
+.warna {
+    border: 1px solid black;
+    padding: 15px;
+}
+.tebak {
+    border: 1px solid black;
+    padding: 15px;
+}
+footer {
+    background-color: black;
+    height: 70px;
+    margin-top: 50px;
+}
+footer h2 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 25px;
+    font-size: 25px;
+    font-family: "Amatic SC", cursive;
+}
