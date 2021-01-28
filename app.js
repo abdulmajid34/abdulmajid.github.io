@@ -56,10 +56,10 @@ document.addEventListener('keydown', (e) => {
     })
 }
 
-let randomAngka = Math.floor(Math.random() * 10);
-// console.log(randomAngka);
-let tebakan = -1;
-while (randomAngka != tebakan) {
-    tebakan = parseInt(prompt("MASUKKAN NOMOR KEBERUNTUNGANMU dari 1 sampai 10 DISINI?? apakah anda hoki hari ini 😛 😝 😜 🤪"));
-    if(randomAngka == tebakan) alert("Yeaayy🤗🤗🤗 Anda berhasil menebak. Selamat😍🤩"); else alert("Oops Salah🤭, coba lagi ya🤗😘 ")
-}
+// let randomAngka = Math.floor(Math.random() * 10);
+// // console.log(randomAngka);
+// let tebakan = -1;
+// while (randomAngka != tebakan) {
+//     tebakan = parseInt(prompt("MASUKKAN NOMOR KEBERUNTUNGANMU dari 1 sampai 10 DISINI?? apakah anda hoki hari ini 😛 😝 😜 🤪"));
+//     if(randomAngka == tebakan) alert("Yeaayy🤗🤗🤗 Anda berhasil menebak. Selamat😍🤩"); else alert("Oops Salah🤭, coba lagi ya🤗😘 ")
+// }
