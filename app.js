@@ -1,4 +1,4 @@
-const img = ['img/kartini.png', 'img/mengheningkan cipta.png', 'img/tanah airku.png', 'img/bagimuNegeri.jpg', 'img/gundul pacul.jpg', 'img/17 agustus.JPG', 'img/akuseorangkapten.jpg', 'img/satu-nusa-satu-bangsa.jpg', 'img/titanic.png', 'img/sabang ke merauke.jpg', 'img/amparpisang.png', 'img/anak kambing.png', 'img/apuse.png', 'img/balonku.jpg', 'img/hbd.jpg', 'img/kicirkicir.jpg', 'img/suwe.png'];
+const img = ['img/kartini.png', 'img/mengheningkan cipta.png', 'img/tanah airku.png', 'img/bagimuNegeri.jpg', 'img/gundul pacul.jpg', 'img/17 agustus.JPG', 'img/satu-nusa-satu-bangsa.jpg', 'img/sabang ke merauke.jpg', 'img/amparpisang.png', 'img/anak kambing.png', 'img/apuse.png', 'img/balonku.jpg', 'img/hbd.jpg', 'img/suwe.png', 'img/abang tukang bakso.jpg', 'img/anak gembala.png', 'img/anak kambing saya.png', 'img/a whole.jpg', 'img/bintang kecil.jpg', 'img/cicak didinding.jpg', 'img/naik delman.png', 'img/Naik-Naik Ke Puncak Gunung.jpg', 'img/potong bebek.png', 'img/titanik.png']
 let idx = 0;
 function changeChord () {
     if(idx === img.length - 1) {
@@ -7,6 +7,7 @@ function changeChord () {
         idx++;
     }
     document.getElementById("gambar").src = img[idx];
+    
 }
 function randomColor() {
     let output = "#"
